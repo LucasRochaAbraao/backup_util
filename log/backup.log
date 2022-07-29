@@ -1,0 +1,7 @@
+2022-07-28 22:47:10,993: [Errno 2] No such file or directory: 'confd.yaml'
+2022-07-28 22:48:35,998: new backup: /home/lucas/Dev/backup_util/target_dir/07-28-22_22-48-35
+2022-07-28 22:49:48,300: new backup: /home/lucas/Dev/backup_util/target_dir/07-28-22_22-49-48
+2022-07-28 22:53:46,318: [Errno 2] No such file or directory: 'conf.yaml'
+2022-07-28 23:00:04,026: new backup: /home/lucas/Dev/backup_util/target_dir/07-28-22_23-00-04
+2022-07-28 23:00:04,218: [Errno 17] File exists: '/home/lucas/Dev/backup_util/target_dir/07-28-22_23-00-04'
+2022-07-28 23:00:09,105: new backup: /home/lucas/Dev/backup_util/target_dir/07-28-22_23-00-09
