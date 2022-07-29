@@ -2,6 +2,7 @@
 # coding=utf-8
 
 import logging
+import tempfile
 import os
 import ruamel.yaml
 import shutil
@@ -23,7 +24,10 @@ def main():
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s: %(message)s')
-    file_handler = logging.FileHandler(log_dir)
+    if os.path.isdir(log_dir):
+        file_handler = logging.FileHandler(f'{log_dir}/backup.log')
+    else:
+        file_handler = logging.FileHandler(f'{tempfile.gettempdir()}/backup.log')
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 

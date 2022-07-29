@@ -1,4 +1,4 @@
 backup:
   source: /home/lucas/Dev/backup_util/test_dir
   target: /home/lucas/Dev/backup_util/target_dir
-  log: /home/lucas/Dev/backup_util/log/backup.log
+  log: /home/lucas/Dev/backup_util/logss
